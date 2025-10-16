@@ -30,4 +30,4 @@ jobs:
       uses: actions/upload-artifact@v3
       with:
         name: sorting-visualizer-exe
-        path: dist/import pygame.exe
+        path: dist/import\ pygame.exe
