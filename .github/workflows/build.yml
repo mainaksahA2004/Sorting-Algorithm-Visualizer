@@ -26,8 +26,8 @@ jobs:
       run: |
         pyinstaller --onefile --windowed "import pygame.py"
 
-    - name: Upload artifact
-      uses: actions/upload-artifact@v3
-      with:
-        name: sorting-visualizer-exe
-        path: dist/import\ pygame.exe
+- name: Upload artifact
+  uses: actions/upload-artifact@v3
+  with:
+    name: sorting-visualizer-exe
+    path: dist/import\ pygame.exe
