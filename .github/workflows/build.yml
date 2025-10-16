@@ -25,10 +25,10 @@ jobs:
 
     - name: Build executable
       run: |
-        pyinstaller --onefile --windowed import pygame.py
+        pyinstaller --onefile --windowed import_pygame.py
 
     - name: Upload executable artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v4
       with:
         name: sorting-visualizer-exe
         path: dist/import_pygame.exe
